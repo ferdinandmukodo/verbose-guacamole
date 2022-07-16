@@ -5,8 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
 </head>
 <body>
+    <header>
+        <div><h1 id="title">Mama's Dairy Farm Business</h1></div>
+        <img src="assets/images/download60.jpeg" alt="cash_cow image">
+    </header>
+
+    <section id="section">
+
+
+        <div class="milkProduce">
     
+            <!-- form to input values -->
+            
+            <div class="formData">
+                
+                <form action="submit" onsubmit="produceReport();">
+                    <h3>Fill and submit the form bellow to get a summary of your income</h3> 
+                    <div id="sheds">
+                        <label for="shed_A">Shed_A: Milk (Litres)</label>
+                        <input id="shed_A" type="number" min="0" required>
+                    </div>
+            
+                    <div id="sheds">
+                        <label for="shed_B">Shed_B: Milk (Litres)</label>
+                        <input id="shed_B" type="number" min="0" required>
+                    </div>
+            
+                    <div id="sheds">
+                        <label for="shed_C">Shed_C: Milk (Litres)</label>
+                        <input id="shed_C" type="number" min="0" required>
+                    </div>
+            
+                    <div id="sheds">
+                        <label for="shed_D">Shed_D: Milk (Litres)</label>
+                        <input id="shed_D" type="number" min="0" required>
+                    </div>
+            
+                    <button type="submit">Submit</button>
+                    <button id="reset" type="reset" onclick="resetPage();">Reset</button>
+                    
+                </form>
+            </div>
+    
+            <!-- OUTPUT RESULTS -->
+            
+            <div class="outputDisplay">
+                <h3 id="displayTitle">Production Summary</h3>
+                <hr>
+                <p id="outputData"></p>
+    
+                <!-- OPTIONAL CHALLENGE -->
+            </div>
+        </div>
+    
+        
+    </section>
 </body>
 </html>
