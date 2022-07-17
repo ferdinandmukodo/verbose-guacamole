@@ -146,6 +146,7 @@ form > button[type = "submit"], form > button[type = "reset"]{
 #footer{
     text-align: center;
     justify-content: center;
+    
 }
 
 .icon:hover {
@@ -200,4 +201,7 @@ a:hover i {
 
 .linkedin:hover {
     color: #04009a;
+}
+#macro{
+    color: brown;
 }
