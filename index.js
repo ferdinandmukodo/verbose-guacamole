@@ -14,12 +14,12 @@ function produceReport(){
 
     document.getElementById("outputData").innerHTML += "<Br>"
 
-    document.getElementById("outputData").innerHTML += "<p>Your production in shed A is " + data.shed_A + " litres per day</p>";
-    document.getElementById("outputData").innerHTML += "<p>Your production in shed B is " + data.shed_B + " litres per day</p>";
-    document.getElementById("outputData").innerHTML += "<p>Your production in shed C is " + data.shed_C + " litres per day</p>";
-    document.getElementById("outputData").innerHTML += "<p>Your production in shed D is " + data.shed_D + " litres per day</p>";
+    document.getElementById("outputData").innerHTML += "<p>Milk produced in shed A is " + data.shed_A + " litres per day</p>";
+    document.getElementById("outputData").innerHTML += "<p>Milk produced in shed B is " + data.shed_B + " litres per day</p>";
+    document.getElementById("outputData").innerHTML += "<p>Milk produced in shed C is " + data.shed_C + " litres per day</p>";
+    document.getElementById("outputData").innerHTML += "<p>Milk produced in shed D is " + data.shed_D + " litres per day</p>";
 
-    document.getElementById("outputData").innerHTML += "<p>Your total production per day is " + sumData + " litres per day</p>";
+    document.getElementById("outputData").innerHTML += "<p>Total Milk Produced Per Day Is " + sumData + " litres per day</p>";
     
 
     dailyIncome = sumData * 45;
@@ -28,13 +28,13 @@ function produceReport(){
 
     document.getElementById("outputData").innerHTML += "<hr>"
 
-    document.getElementById("outputData").innerHTML += "<p>Your total daily income is Ksh. " + dailyIncome + " </p>";
+    document.getElementById("outputData").innerHTML += "<p>Total daily income is Ksh. " + dailyIncome + " </p>";
 
     document.getElementById("outputData").innerHTML += "<hr>"
 
     weeklyIncome = dailyIncome * 7;
 
-    document.getElementById("outputData").innerHTML += "<p>Your total weekly income is Ksh. " + weeklyIncome + " </p>";
+    document.getElementById("outputData").innerHTML += "<p>Total weekly income is Ksh. " + weeklyIncome + " </p>";
 
     document.getElementById("outputData").innerHTML += "<hr>"
 
@@ -55,18 +55,18 @@ function produceReport(){
     incomeDecember = dailyIncome * 31;
 
      
-    document.getElementById("outputData").innerHTML += "<p> Your total income for January is Ksh. " + incomeJanuary + " </p>"
-    document.getElementById("outputData").innerHTML += "<p> Your total income for February is Ksh. " + incomeFebruary + " </p>"
-    document.getElementById("outputData").innerHTML += "<p> Your total income for March is Ksh. " + incomeMarch + " </p>"
-    document.getElementById("outputData").innerHTML += "<p> Your total income for April is Ksh. " + incomeApril + " </p>"
-    document.getElementById("outputData").innerHTML += "<p> Your total income for May is Ksh. " + incomeMay + " </p>"
-    document.getElementById("outputData").innerHTML += "<p> Your total income for June is Ksh. " + incomeJune + " </p>"
-    document.getElementById("outputData").innerHTML += "<p> Your total income for July is Ksh. " + incomeJuly + " </p>"
-    document.getElementById("outputData").innerHTML += "<p> Your total income for August is Ksh. " + incomeAugust + " </p>"
-    document.getElementById("outputData").innerHTML += "<p> Your total income for September is Ksh. " + incomeSeptember + " </p>"
-    document.getElementById("outputData").innerHTML += "<p> Your total income for October is Ksh. " + incomeOctober + " </p>"
-    document.getElementById("outputData").innerHTML += "<p> Your total income for November is Ksh. " + incomeNovember + " </p>"
-    document.getElementById("outputData").innerHTML += "<p> Your total income for December is Ksh. " + incomeDecember + " </p>"
+    document.getElementById("outputData").innerHTML += "<p> Total income for January is Ksh. " + incomeJanuary + " </p>"
+    document.getElementById("outputData").innerHTML += "<p> Total income for February is Ksh. " + incomeFebruary + " </p>"
+    document.getElementById("outputData").innerHTML += "<p> Total income for March is Ksh. " + incomeMarch + " </p>"
+    document.getElementById("outputData").innerHTML += "<p> Total income for April is Ksh. " + incomeApril + " </p>"
+    document.getElementById("outputData").innerHTML += "<p> Total income for May is Ksh. " + incomeMay + " </p>"
+    document.getElementById("outputData").innerHTML += "<p> Total income for June is Ksh. " + incomeJune + " </p>"
+    document.getElementById("outputData").innerHTML += "<p> Total income for July is Ksh. " + incomeJuly + " </p>"
+    document.getElementById("outputData").innerHTML += "<p> Total income for August is Ksh. " + incomeAugust + " </p>"
+    document.getElementById("outputData").innerHTML += "<p> Total income for September is Ksh. " + incomeSeptember + " </p>"
+    document.getElementById("outputData").innerHTML += "<p> Total income for October is Ksh. " + incomeOctober + " </p>"
+    document.getElementById("outputData").innerHTML += "<p> Total income for November is Ksh. " + incomeNovember + " </p>"
+    document.getElementById("outputData").innerHTML += "<p> Total income for December is Ksh. " + incomeDecember + " </p>"
 
 
     document.getElementById("outputData").innerHTML += "<Br>"
@@ -75,7 +75,7 @@ function produceReport(){
 
     incomeInLeapYear = dailyIncome * 366;
 
-    document.getElementById("outputData").innerHTML += "<p>Your total income in a leap year is Ksh. " + incomeInLeapYear + " </p>";
+    document.getElementById("outputData").innerHTML += "<p> Total income in a leap year is Ksh. " + incomeInLeapYear + " </p>";
 
     document.getElementById("outputData").innerHTML += "<hr>"
 
