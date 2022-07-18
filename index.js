@@ -81,26 +81,6 @@ function produceReport(){
 
     document.getElementById("outputData").innerHTML += "<Br>"
 
-    // OPTIONAL TRIAL
-
-    // New price is 49.60
-    newDailyIncome = sumData * 49.60;
-
-    // newIncomeJanuary = newDailyIncome * 31;
-    // newIncomeFebruary = newDailyIncome * 29;
-    // newIncomeMarch = newDailyIncome * 31;
-    // newIncomeApril = newDailyIncome * 30;
-    // newIncomeMay = newDailyIncome * 31;
-    // newIncomeJune = newDailyIncome * 30;
-    // newIncomeJuly = newDailyIncome * 31;
-    // newIncomeAugust = newDailyIncome * 31;
-    // newIncomeSeptember = newDailyIncome * 30;
-    // newIncomeOctober = newDailyIncome * 31;
-    // newIncomeNovember = newDailyIncome * 30;
-    // newIncomeDecember = newDailyIncome * 31;
-
-    // newIncomeInLeapYear = 366 * 49.60;
-
 
     
 }
@@ -115,15 +95,5 @@ function resetPage(){
     location.reload();
 
 }
-
-// function dateTime(){
-//     var today = new Date();
-
-// var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
-
-// var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-
-// var dateTime = date+' '+time;
-// }
 
 
